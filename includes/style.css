@@ -1,0 +1,45 @@
+<STYLE TYPE='text/css'>
+BODY{background-color:black; font-family:sans-serif; font-size:small; font-weight:normal; }
+OL{ list-style-type:upper-roman; font-family:sans-serif; font-size:small; color:darkred; }
+UL{ list-style-type:square; font-family:sans-serif; font-size:small; color:darkred; }
+FONT{font-size:small; font-family:sans-serif; font-weight:normal; }
+P{color:white; font-size:x-small; font-family:sans-serif; font-weight:bold; }
+PRE{color:white; font-size:small; font-family:monospace; font-weight:bold; }
+DIV{background-color:black; color:white; font-family:sans-serif; font-size:small; font-weight:bold; border-color:darkred; border-style:outset; border-width:thin; }
+SPAN{background-color:black; color:white; font-size:small; font-family:sans-serif; font-weight:bold; border-color:darkred; border-style:groove; border-width:medium; }
+A{color:darkred; font-family:sans-serif; font-size:small; font-weight:bold; }
+A:Visited{color:darkred; font-family:sans-serif; font-size:small; font-weight:bold; }
+A:Hover{color:darkred; font-family:sans-serif; font-size:small; font-weight:bold; }
+H1{color:white; font-size:xx-large; font-family:sans-serif; font-weight:bold; }
+H2{color:white; font-size:x-large; font-family:sans-serif; font-weight:bold; }
+H3{color:white; font-size:large; font-family:sans-serif; font-weight:bold; }
+INPUT{font-family:sans-serif; font-size:x-small; color:black; background-color:white; border-style:groove; border-width:medium; border-color:darkred;}
+SELECT{font-family:sans-serif; font-size:x-small; color:black; background-color:white; border-style:groove; border-width:medium; border-color:darkred; }
+OPTION{font-family:sans-serif; font-size:x-small; color:black; background-color:white; border-width:medium; border-color:darkred; }
+TEXTAREA{font-family:sans-serif; font-size:x-small; color:black; background-color:white; border-style:groove; border-width:medium; border-color:darkred; }
+
+#dropmenudiv{
+position:absolute;
+border:1px solid black;
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+}
+
+#dropmenudiv a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid black;
+padding: 1px 0;
+text-decoration: none;
+font-weight: bold;
+}
+
+#dropmenudiv a:hover{ /*hover background color*/
+background-color: silver;
+}
+
+
+</STYLE>
